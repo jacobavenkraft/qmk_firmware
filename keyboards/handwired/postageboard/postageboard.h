@@ -17,10 +17,6 @@
 #pragma once
 
 #include "quantum.h"
+#include "r1.h"
 
-#define LAYOUT( \
-    k00, k01, k02 \
-) \
-{ \
-    { k00, k01, k02 } \
-}
+#define LAYOUT_ortho_5x12 LAYOUT_main
